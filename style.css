@@ -54,7 +54,7 @@ body{
     height: 85px;
     width: 280px;
     border-radius: 15px;
-    align-items: center;
+    justify-content: space-around;
     box-shadow: 10px black;
     text-size-adjust:auto;
 
@@ -65,8 +65,14 @@ body{
    size: 10cm;
 }
 
-.plan-price{
+.price-change a{
+    margin-top: 13%;
     
+}
+
+.price-change img{
+    height: fit-content;
+    margin-top: 8%;
 }
 
 .btns{
@@ -97,6 +103,7 @@ body{
     height: 50px;
     font-family: 'Red Hat Display', sans-serif;
     border-radius: 15px;
+   
     border: none;
     text-align: center;
 }
@@ -112,3 +119,4 @@ body{
 .price-change:visited{
     color: blueviolet;
 }
+
